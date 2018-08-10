@@ -21,6 +21,7 @@ line.push(name)
   function currentLine(katzDeliLine){
     //line.push(line.length)
     //return (line.toString())
+<<<<<<< HEAD
    if ( katzDeliLine.length === 0){
     return "The line is currently empty." }
      else
@@ -45,3 +46,11 @@ line.push(name)
   
   
   
+=======
+    if (katzDeliLine.length === 0){
+      return "The line is currently empty."
+    } else {
+    return ("The line is currently: " + katzDeliLine());
+  }
+  }
+>>>>>>> 2d79261c761aa2d0ec71cc7a357ca73b5a123a1f
